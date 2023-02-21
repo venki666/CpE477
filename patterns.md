@@ -30,6 +30,7 @@ Total that (∑) and take the square root √
   = sqrt(31)
   = 5.57
 ```
+<img width="312" alt="image" src="https://user-images.githubusercontent.com/5742488/220272566-e3c971b3-abb2-482d-88a9-de91a289dfc0.png">
 
 what if it’s Y=2X-1?
 
