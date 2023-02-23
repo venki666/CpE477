@@ -30,7 +30,6 @@ Total that (∑) and take the square root √
   = sqrt(31)
   = 5.57
 ```
-<img width="312" alt="image" src="https://user-images.githubusercontent.com/5742488/220272566-e3c971b3-abb2-482d-88a9-de91a289dfc0.png">
 
 what if it’s Y=2X-1?
 
@@ -55,4 +54,17 @@ X = { -1, 0, 1, 2, 3, 4 }
 My Y = { -3, -1, 1, 3, 5, 7 }
 Real Y = {-3, -1, 1, 3, 5, 7}
 Diff2 = {0, 0, 0, 0, 0}
+```
+#### Putting it together and coding
+
+```
+model = keras.Sequential([keras.layers.Dense(units=1, input_shape=[1])])
+model.compile(optimizer='sgd', loss='mean_squared_error')
+
+xs = np.array([-1.0, 0.0, 1.0, 2.0, 3.0, 4.0], dtype=float)
+ys = np.array([-3.0, -1.0, 1.0, 3.0, 5.0, 7.0], dtype=float)
+
+model.fit(xs, ys, epochs=500)
+print(model.predict([10.0]))
+
 ```
