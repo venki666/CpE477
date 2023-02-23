@@ -57,7 +57,18 @@ Diff2 = {0, 0, 0, 0, 0}
 ```
 #### Putting it together and coding
 
+To use Keras, will need to have the TensorFlow package installed. See detailed instructions.
+
+Once TensorFlow is installed, just import Keras via:
 ```
+from tensorflow import keras
+```
+
+Complete code
+
+```
+from tensorflow import keras
+
 model = keras.Sequential([keras.layers.Dense(units=1, input_shape=[1])])
 model.compile(optimizer='sgd', loss='mean_squared_error')
 
