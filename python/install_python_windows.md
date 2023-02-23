@@ -125,3 +125,5 @@ To return to the normal environment, type
 ```
 deactivate
 ```
+<img width="120" alt="Bull logo4" src="https://user-images.githubusercontent.com/5742488/221054063-7369f2c1-970e-4238-91bc-5b2670418dc0.png">
+
