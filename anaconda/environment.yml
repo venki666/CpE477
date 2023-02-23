@@ -1,0 +1,30 @@
+name: uav
+
+channels:
+  - anaconda
+  - conda-forge
+  - defaults
+
+dependencies:
+  - python
+  - pip
+  - numpy
+  - scipy
+  - toolz
+  - matplotlib
+  - dill
+  - pandas
+  - partd
+  - bokeh
+  - ipython
+  - opencv
+  - py-opencv
+  - imutils
+  - jupyter
+  - spyder
+  - jupyterlab
+  - pip: 
+      - djitellopy2==2.3
+      - opencv-contrib-python
+
+
