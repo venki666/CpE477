@@ -1,0 +1,1 @@
+Different Walking speeds(1,2,3) recorded on treadmill. Arduino collects data and predicts activity every 2 seconds.
